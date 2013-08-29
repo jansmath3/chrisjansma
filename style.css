@@ -1,0 +1,591 @@
+body {
+	font-family:"Arial", Gadget, sans-serif;
+	font-size: 20px;
+	color: #7e7e7e;
+	padding: 0 0 0 0;
+}
+
+span {
+	display:none;
+}
+
+#content {
+	height: 596px;
+	position: absolute;
+	left: 17px;
+	width: 12731px;
+    top:50%;
+	margin-top:-298px;
+}
+
+#wrapper {
+	width: 12736px;
+}
+
+.lightwindow {
+	margin: 10px 0 0 20px;
+}
+
+.hidden {
+	display:none;
+}
+
+.site {
+	margin: 10px 0 0 20px;
+}
+
+.txt {
+	padding: 10px 0 0 10px;
+}
+
+.txtmain {
+	padding: 5px 0 0 10px;
+}
+
+.arrow {
+	position: relative;
+	z-index:1;
+	float: left;
+	padding: 50px 75px 0 75px;
+}
+
+#home {
+	float: left;
+	padding: 0 0 0 150px;
+}
+
+#hometxt {
+	color: #f300f0;
+}
+
+#whatup {
+	position: relative;
+	color: #f300f0;
+	font-size: 27px;
+	top: 170px;
+	left: 150px;
+	text-align: right;
+	z-index:2;
+}
+#typewriter {
+	padding-top:160px; 
+}
+
+#craftsman {
+	float: left;
+}
+
+#craftsmanwatch {
+	display: block;
+	background: url(assets/craftsmanwatch.png);
+	width: 133px;
+	height: 39px;
+}
+
+#craftsmanwatch:hover 
+{ 
+background-position: 0 -39px;
+}
+
+#craftsman1 {
+	position: relative;
+	z-index: 2;
+	top: -70px;
+	left: 210px;
+}
+
+#craftsman2 {
+	position: relative;
+	z-index: 2;
+	left: 14px;
+	top: 40px;
+}
+
+#craftsman3 {
+	position: relative;
+	z-index: 2;
+	left: -182px;
+	top: 152px;
+}
+
+#craftsman4 {
+	position: relative;
+	z-index: 1;
+	top: 70px;
+	margin-left: -130px;
+}
+
+#bonefish {
+	float: left;
+}
+
+#bonefishwatch {
+	display: block;
+	background: url(assets/bonefishwatch.png);
+	width: 185px;
+	height: 39px;
+}
+
+#bonefishwatch:hover 
+{ 
+background-position: 0 -39px;
+}
+
+#bonefish1 {
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	left: -20px;
+}
+
+#sandpaper {
+	float: left;
+}
+
+#sandpaperawd {
+	position: relative;
+	left:70px;
+	top: -20px;
+}
+#sandpaperwatch {
+	display: block;
+	background: url(assets/sandpaperwatch.png);
+	width: 145px;
+	height: 38px;
+}
+
+#sandpaperwatch:hover 
+{ 
+background-position: 0 -38px;
+}
+
+#sandpaper1 {
+	position: relative;
+	z-index: 2;
+	top: 60px;
+	left: 110px;
+}
+
+#sandpaper2 {
+	position: relative;
+	z-index: 2;
+	left: 110px;
+	top: 60px;
+}
+
+#sandpaper3 {
+	position: relative;
+	z-index: 2;
+	left: 110px;
+	top: 60px;
+}
+
+#kenmore {
+	float: left;
+}
+
+#millionwatch {
+	display: block;
+	background: url(assets/millionwatch.png);
+	width: 133px;
+	height: 39px;
+}
+
+#millionwatch:hover 
+{ 
+background-position: 0 -39px;
+}
+
+#million1 {
+	position: relative;
+	z-index: 2;
+	top: 50px;
+	left: 40px;
+}
+
+#million2 {
+	position: relative;
+	z-index: 2;
+	top: 50px;
+	left: 45px;
+}
+
+#million3 {
+	position: relative;
+	z-index: 2;
+	left: 50px;
+	top: 50px;
+}
+
+#million4 {
+	position: relative;
+	z-index: 1;
+	margin-left:-200px;
+}
+
+
+#santa {
+	float: left;
+}
+
+#santaawd {
+	position: relative;
+	left:70px;
+	top: -60px;
+}
+
+#santastudy {
+	display: block;
+	background: url(assets/santastudy.png);
+	width: 157px;
+	height: 39px;
+}
+
+#santastudy:hover 
+{ 
+background-position: 0 -39px;
+}
+
+#santaviral {
+	display: block;
+	background: url(assets/santaviral.png);
+	width: 157px;
+	height: 39px;
+}
+
+#santaviral:hover 
+{ 
+background-position: 0 -39px;
+}
+
+#santa1 {
+	position: relative;
+	z-index:1;
+	margin: 0 0 0 400px;
+	top: -60px;
+}
+
+#santa2 {
+	position: relative;
+	z-index:1;
+	top: -60px;
+}
+
+#santa3 {
+	position: relative;
+	z-index:2;
+	left: 200px;
+	top:-80px;
+}
+
+#santa4 {
+	position: relative;
+	z-index:1;
+	left: 90px;
+	top: -60px;
+}
+
+#clayyourself {
+	float: left;
+}
+
+#clayawd {
+	position: relative;
+	top:-20px;
+	left:70px;
+}
+
+#clayawd2 {
+	position: relative;
+	top:-20px;
+	left:63px;
+}
+
+#claystudy {
+	display: block;
+	background: url(assets/claystudy.png);
+	width: 132px;
+	height: 40px;
+}
+
+#claystudy:hover 
+{ 
+background-position: 0 -40px;
+}
+
+#clayvisit {
+	display: block;
+	background: url(assets/clayvisit.png);
+	width: 132px;
+	height: 40px;
+}
+
+#clayvisit:hover 
+{ 
+background-position: 0 -40px;
+}
+
+#clay1 {
+	position: relative;
+	z-index:2;
+	left: 130px;
+	top: 50px;
+}
+
+#clay2 {
+	position: relative;
+	z-index:1;
+	top: -20px;
+	left: 30px;
+}
+
+#clay3 {
+	position: relative;
+	z-index:2;
+	left: -40px;
+	top: 20px;
+	
+}
+
+#banter {
+	float: left;
+	margin-left: 130px;
+}
+
+#banterwatch {
+	display: block;
+	background: url(assets/banterwatch.png);
+	width: 133px;
+	height: 39px;
+}
+
+#banterwatch:hover 
+{ 
+background-position: 0 -39px;
+}
+
+#banter1 {
+	position: relative;
+	z-index:3;
+	left: 440px;
+	top: 0px;
+}
+
+#banter2 {
+	position: relative;
+	z-index:3;
+	left: -130px;
+	top: 50px;
+}
+
+#banter3 {
+	position: relative;
+	z-index:2;
+	top: 65px;
+	left: -190px;
+}
+
+#banter4 {
+	position: relative;
+	z-index:1;
+	top: 20px;
+	margin-left: -250px;
+}
+
+#wagworld {
+	float: left;
+	margin-left: 100px;
+}
+
+#wagvisit {
+	display: block;
+	background: url(assets/wagvisit.png);
+	width: 132px;
+	height: 39px;
+}
+
+#wagvisit:hover 
+{ 
+background-position: 0 -39px;
+}
+
+#wag1 {
+	position: relative;
+	z-index: 2;
+	left:-120px;
+	top:;
+}
+
+#wag2 {
+	position: relative;
+	z-index: 1;
+	margin-left:-190px;
+	top:20px;
+}
+
+#avatar {
+	float: left;
+}
+
+#avatar1 {
+	position: relative;
+	z-index:1;
+	left:70px;
+	top:130px;
+}
+
+#avatar2 {
+	position: relative;
+	z-index:1;
+	left:-47px;
+	top:-25px;
+}
+
+#avatar3 {
+	position: relative;
+	z-index:1;
+	left:-42px;
+	top:-60px;
+}
+
+#mini {
+	float: left;
+}
+
+#miniawd {
+	position: relative;
+	top:-15px;
+	left: 130px;
+}
+
+#minivisit {
+	display: block;
+	background: url(assets/minivisit.png);
+	width: 132px;
+	height: 39px;
+}
+
+#minivisit:hover 
+{ 
+background-position: 0 -39px;
+}
+
+#mini1 {
+	position: relative;
+	z-index:1;
+	left:10px;
+	top:60px;
+}
+
+#mini2 {
+	position: relative;
+	z-index:1;
+	left:-22px;
+	top:5px;
+}
+
+#mini3 {
+	position: relative;
+	z-index:1;
+	left:-10px;
+	top:-20px;
+}
+
+#puma {
+	float: left;
+}
+
+#pumaawd1 {
+	position: relative;
+	left: 130px;
+	top: -70px;
+}
+
+#pumaawd2 {
+	position: relative;
+	left: 123px;
+	top:-70px;
+}
+
+#puma1 {
+	position: relative;
+	z-index:1;
+	left:30px;
+	top:-60px;
+}
+
+#puma2 {
+	position: relative;
+	z-index:1;
+	left:20px;
+	top:-120px;
+}
+
+#puma3 {
+	position: relative;
+	z-index:1;
+	left:;
+	top:-80px;
+}
+
+#contact {
+	float: left;
+	padding-left: 180px;
+}
+
+#resume {
+	display: block;
+	background: url(assets/resume.png);
+	width: 196px;
+	height: 38px;
+	margin-top: 30px;
+}
+
+#resume:hover 
+{ 
+background-position: 0 -38px;
+}
+
+#email {
+	display: block;
+	background: url(assets/email.png);
+	width: 553px;
+	height: 58px;
+}
+
+#email:hover 
+{ 
+background-position: 0 -58px;
+}
+
+#phone {
+	display: block;
+	background: url(assets/phone.png);
+	width: 400px;
+	height: 58px;
+	margin-top: 10px;
+}
+
+#linkedin {
+	display: block;
+	background: url(assets/linkedin.png);
+	width: 196px;
+	height: 38px;
+}
+
+#linkedin:hover 
+{ 
+background-position: 0 -38px;
+}
+
+#youtube {
+	display: block;
+	background: url(assets/youtube.png);
+	width: 196px;
+	height: 38px;
+}
+
+#youtube:hover 
+{ 
+background-position: 0 -38px;
+}
